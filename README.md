@@ -1,4 +1,4 @@
-I used Render.com to deploy the backend servr which is running on localhost:5173 . 
+I used Render.com to deploy the backend server which is running on localhost:5173 . 
 For the Front-end, I used Vercel for deployment. 
 If Internal Server Error 500 appears in the Browser debugging console; my fix was that; 
 I went back into the server directory and ran 'npm start server' to make sure the server was running. It must be running in order for Render.com to use it for deployment.
