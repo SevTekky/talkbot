@@ -148,7 +148,7 @@ loader(messageDiv);
 // the header is going to be an object containing Content-type
 //finally, we have to pass our valubale body, and we pass in an object where we say 'data.get('prompt')'
 //which is our data or msg coming from our text area element on the screen
-const response = await fetch('http://localhost:5173', {
+const response = await fetch('https://talkbot-4wlm.onrender.com/', {
   method: 'POST',
   headers: {
     'Content-type': 'application/json',
