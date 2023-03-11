@@ -12,4 +12,13 @@ pushed your keys to github by accident. It will remove the file from github that
 under the 'dotenv.config();' line of code in the server.js file. Once this is done, and you run the server and it displays the API keys to your terminal,
 you can remove the console.log line of code that i just mentioned, and you can then update this new api Key to render.com in the Environment variables section.
 
+Simply put, if your api key is leaked
+check your email because OPENAI will send you one immediately
+use new api key and again do same process,
+git init
+git add, 
+git commit,
+git push 
+then, also update the key in your render environment
+
 Make sure that your frontend and backend are running on the same ports and not different ports.
