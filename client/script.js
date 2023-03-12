@@ -124,7 +124,7 @@ chatContainer.innerHTML += chatStripe(false, data.get('prompt'))
 
 form.reset();
 
-/*bot's chatstripe, first we want to generate a unique for it's msg,
+/*bot's chatstripe, first we want to generate a uniqueID for it's msg,
 and then as we created a chat stripe for ourselves, we also want to create a chat stripe for the A.i,
 since it's the A.i that will be typing, we will set the parameter to 'true',
 and for the second parameter we want a string with an empty space because we will fill it up later on as we are loading the actual message
@@ -144,8 +144,7 @@ loader(messageDiv);
 
 // fetch the data from server -> bot's response
 //we  simply need to create a new response
-// IMPORTANT NOTE TO SELF, WHEN I CHANGE FROM HTTPS TO HTTP, MY LOADER DISSAPEARS, IT RE-APPEARS ONLY WHEN ON HTTPS
-// the header is going to be an object containing Content-type
+// the header is going to be an object containing Content-Type
 //finally, we have to pass our valubale body, and we pass in an object where we say 'data.get('prompt')'
 //which is our data or msg coming from our text area element on the screen
 const response = await fetch('https://talkbot-4wlm.onrender.com', 
